@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sc9j5tskecbw/public_html/uniex.obmeg.com/
+    - /bin/cp -R * $DEPLOYPATH
